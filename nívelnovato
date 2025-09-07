@@ -1,0 +1,57 @@
+#include <stdio.h>
+
+int main() {
+
+    printf("Desafio Super Trunfo!\n");
+
+  // Atributos da primeira carta
+  int populacao1, pontosTurísticos1;
+  float área1, pib1;
+
+  // Atributos da segunda carta
+  int populacao2, pontosTurísticos2;
+  float área2, pib2;
+
+  // Cadastro da primeira carta
+  printf("Cadastro da primeira carta:\n");
+  printf("Digite a população: ");
+  scanf("%d", &populacao1);
+
+  printf("Digite a área: ");
+  scanf("%f", &área1);
+
+  printf("Digite o PIB: ");
+  scanf("%f", &pib1);
+
+  printf("Digite o numero de pontos turísticos: ");
+  scanf("%d", &pontosTurísticos1);
+
+  // Cadastro da segunda carta
+  printf("Cadastro da segunda carta:\n");
+  printf("Digite a população: ");
+  scanf("%d", &populacao2);
+
+  printf("Digite a área: ");
+  scanf("%f", &área2);
+
+  printf("Digite o PIB: ");
+  scanf("%f", &pib2);
+
+  printf("Digite o numero de pontos turísticos: ");
+  scanf("%d", &pontosTurísticos2);
+
+  // Exibição dos dados cadastrados
+  printf("\n--- Dados da Primeira Carta ---\n");
+  printf("Populacao: %d\n", populacao1);
+  printf("Área: %.2f\n", área1);
+  printf("PIB: %.2f\n", pib1);
+  printf("Pontos turísticos: %d\n", pontosTurísticos1);
+
+  printf("\n--- Dados da Segunda Carta ---\n");
+  printf("Populacao: %d\n", populacao2);
+  printf("Área: %.2f\n", área2);
+  printf("PIB: %.2f\n", pib2);
+  printf("Pontos turísticos: %d\n", pontosTurísticos2);
+
+    return 0;
+}
